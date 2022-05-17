@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Сергей Ежело](https://up.htmlacademy.ru/htmlcss/34/user/944575).
-* Наставник: `Серёжа Попов`(https://htmlacademy.ru/profile/id42761).
+* Наставник: [Серёжа Попов](https://htmlacademy.ru/profile/id42761).
 
 ---
 
