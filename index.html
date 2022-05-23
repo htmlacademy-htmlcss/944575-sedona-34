@@ -8,32 +8,32 @@
     <header>
       <nav>
         <a>
-          <img src="img/logo.svg" width="139" height="70" alt="city of Sedona">
+          <img src="img/logo.svg" width="139" height="70" alt="Логотип Седона">
         </a>
         <ul>
           <li>
-            <a href="#">Главная</a>
+            <a href="/">Главная</a>
           </li>
           <li>
             <a href="#">О Седоне</a>
           </li>
           <li>
-            <a href="#">Гостиницы</a>
+            <a href="catalog.html">Гостиницы</a>
           </li>
         </ul>
         <ul>
           <li>
             <a href="#">
-              <img src="img/search.svg" width="" height="" alt="Поиск">
+              <img src="img/search.svg" width="19" height="19" alt="Поиск">
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="img/favorite.svg" width="" height="" alt="Избранное">
+              <img src="img/favorite.svg" width="19" height="17" alt="Избранное">
             </a>
           </li>
           <li>
-            <button class="button">Хочу сюда!</button>
+            <button type="button">Хочу сюда!</button>
         </li>
       </ul>
       </nav>
@@ -69,9 +69,9 @@
             </ul>
           </li>
           <li>
-            <h3></h3>
-            <p></p>
-            <img src="img/canyon.jpg" width="" height="" alt="фотография каньона">
+            <h3>Там есть мост дьявола</h3>
+            <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <img src="img/canyon.jpg" width="800" height="384" alt="фотография каньона">
           </li>
           <li>
             <h3>Небольшая площадь</h3>
@@ -97,29 +97,37 @@
       <section>
         <h2>Подпишитесь на рассылку</h2>
         <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-        <p><input type="email" placeholder="Ваш e-mail"></p>
-        <p><input type="submit" value="Подписаться"></p>
+        <form action="https://echo.htmlacademy.ru/" method="post">
+          <div>
+            <label>
+              <input type="email" name="email" placeholder="Ваш e-mail">
+            </label>
+          </div>
+          <div>
+            <input type="submit" value="Подписаться">
+          </div>
+        </form>
       </section>
       <ul>
         <li>
           <a href="https://vk.com/htmlacademy">
-            <img src="img/social-vk.svg" alt="Вконтакте">
+            <img src="img/social-vk.svg" width="32" height="23" alt="Вконтакте">
           </a>
         </li>
         <li>
-          <a href="https://t.me/htmlacademy ">
-            <img src="img/social-telegram.svg" alt="Телеграм">
+          <a href="https://t.me/htmlacademy " >
+            <img src="img/social-telegram.svg" width="18" height="17" alt="Телеграм">
           </a>
         </li>
         <li>
           <a href="https://www.youtube.com/user/htmlacademyru">
-            <img src="img/social-youtube.svg" alt="Ютуб">
+            <img src="img/social-youtube.svg" width="20" height="16" alt="Ютуб">
           </a>
         </li>
       </ul>
       <a href="tel:+7(495)666-02-66">+7(495) 666-02-66</a>
       <a href="https://htmlacademy.ru/">
-        <img src="img/Logo-footer.svg" alt="Логотип академии">
+        <img src="img/Logo-footer.svg" width="115" height="34" alt="Логотип академии">
       </a>
     </footer>
   </body>
